@@ -1,0 +1,288 @@
+/* Prices section */
+.prices-section {
+  padding: 45px 0;
+  background-color: #222222;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.prices-wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.prices p {
+  font-size: 18px;
+}
+
+.rent-btn {
+  width: 15%;
+  padding: 15px 40px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rent-btn:hover {
+  background-color: #ff5252;
+}
+
+/* images style */
+main {
+  position: relative;
+}
+
+main .img {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  max-height: 500px;
+  width: auto;
+  z-index: 10;
+  object-fit: contain;
+}
+
+/* Adaptation prices section */
+
+@media (max-width: 1024px) {
+  main .img {
+    max-height: 498px;
+}
+}
+
+@media (max-width: 921px) {
+  .section-title {
+    font-size: 28px;
+  }
+  .prices-wrapper {
+    margin: 0px auto;
+}
+main .img {
+  max-height: 438px;
+}
+}
+
+@media (max-width: 881px) {
+  .section-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 850px) {
+  main .img {
+    max-height: 437px;
+}
+}
+
+@media (max-width: 768px) {
+  main .img {
+    max-height: 426px;
+}
+}
+
+@media (max-width: 700px) {
+  .section-title {
+    font-size: 14px;
+}
+.prices p {
+  font-size: 15px;
+}
+.prices-section{
+  margin-left: 85px;
+}
+main .img {
+  max-height: 372px;
+}
+.section-subtitle {
+  font-size: 14px;
+}
+.prices p {
+  font-size: 12px;
+}
+}
+
+@media (max-width: 650px) {
+  main .img {
+    display: none; 
+  }
+}
+
+@media (max-width: 950px) {
+  .rent-btn {
+    width: 18%;
+  }
+}
+
+@media (max-width: 849px) {
+  .rent-btn {
+    width: 18%;
+  }
+}
+
+@media (max-width: 790px) {
+  .rent-btn {
+    width: 20%;
+  }
+}
+
+@media (max-width: 720px) {
+  .rent-btn {
+    width: 15%;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 701px) {
+  .rent-btn {
+    width: 14%;
+    padding: 4px 12px;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 650px) {
+  .rent-btn {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 601px) {
+  .rent-btn {
+    width: 23%;
+  }
+}
+
+@media (max-width: 501px) {
+  .rent-btn {
+    padding: 5px 15px;
+    width: 20%;
+  }
+}
+
+@media (max-width: 451px) {
+  .rent-btn {
+      padding: 5px 11px;
+      width: 20%;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .rent-btn {
+      font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+  }
+  .prices-section {
+    margin-left: 15px;
+}
+.prices-wrapper {
+  padding: 0 38px;
+}
+}
+
+@media (max-width: 460px) {
+  .section-title {
+      font-size: 23px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-title {
+      font-size: 22px;
+  }
+}
+
+@media (max-width: 430px) {
+  .section-title {
+      font-size: 21px;
+  }
+}
+
+@media (max-width: 410px) {
+  .section-title {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .section-title {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 381px) {
+  .rent-btn {
+      padding: 3px 6px;
+      width: 25%;
+      font-size: 13px;
+  }
+}
+
+@media (max-width: 370px) {
+  .rent-btn {
+    font-size: 13px;
+}
+  .section-title {
+      font-size: 17px;
+  }
+}
+
+@media (max-width: 350px) {
+  .section-title {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .section-title {
+      font-size: 15px;
+  }
+}
+
+@media (max-width: 330px) {
+  .section-title {
+      font-size: 14px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .section-subtitle {
+    font-size: 14px;
+  }
+}
+ 
+/*end prices section*/
